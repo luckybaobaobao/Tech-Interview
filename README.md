@@ -8,16 +8,13 @@ To install all the dependencies, you can run:
 pip install -r requirements.txt
 
 To crawl any website, you can run (for example):
-python main.py "https://monzo.com/"
+python main.py "https://taobao.com/"
 
 To run the tests:
 python -m unittest 
 
 The output will print all the URLs and the list of all connected URLs on the page. For example:
-Current page: https://monzo.com/faq/
-The connected URLs on the page: ['https://monzo.com/i/helping-everyone-belong-at-monzo/',...]
-Current page: https://monzo.com/information-about-current-account-services/
-The connected URLs on the page: ['https://monzo.com/i/helping-everyone-belong-at-monzo/',....]
+
 
 The design of this app:
 There is a file called crawler-flow.jpg, which describe how my web crawler works. 
